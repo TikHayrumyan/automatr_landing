@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  overflow-x: hidden;
+}
+.swiper-wrapper > div {
+  display: flex;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
