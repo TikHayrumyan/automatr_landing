@@ -38,8 +38,9 @@ export default function Header() {
         ) : (
           <XIcon className="sm:hidden" onClick={onToggleMenu} />
         )}
-        {OpenMenu && <div className="fixed w-full h-[91vh] bg-white top-[20vw] z-[9999] left-0 right-0 bottom-0 ">
-          <ul className="container grid gap-3 py-[5vw] text-[6vw] font-semibold text-black">
+        {OpenMenu && (
+          <div className="fixed w-full h-[91vh] bg-white top-[20vw] z-[9999] left-0 right-0 bottom-0 ">
+            <ul className="container grid gap-3 py-[5vw] text-[6vw] font-semibold text-black">
               {NavBarData.map((component) => (
                 <Link
                   key={component.title}
@@ -50,7 +51,8 @@ export default function Header() {
                 </Link>
               ))}
             </ul>
-          </div>}
+          </div>
+        )}
       </div>
     </div>
   );

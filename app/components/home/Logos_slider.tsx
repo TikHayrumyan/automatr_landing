@@ -41,7 +41,7 @@ const LogosSlider: React.FC = () => {
   ];
 
   return (
-    <section className="w-full border-y-2 border-black">
+    <section className="w-full border-y-2 border-gray-200">
       <div className=" sm:h-[10vw] h-[30vw]">
         <ul className="sm:h-[10vw] h-[30vw] w-full flex items-center">
           <Swiper

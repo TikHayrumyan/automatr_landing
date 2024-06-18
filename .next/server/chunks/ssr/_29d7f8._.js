@@ -617,18 +617,18 @@ function Header() {
                                 children: component.title
                             }, component.title, false, {
                                 fileName: "[project]/app/components/header.tsx",
-                                lineNumber: 44,
+                                lineNumber: 45,
                                 columnNumber: 17
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/components/header.tsx",
-                        lineNumber: 42,
-                        columnNumber: 11
+                        lineNumber: 43,
+                        columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/components/header.tsx",
-                    lineNumber: 41,
-                    columnNumber: 22
+                    lineNumber: 42,
+                    columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
